@@ -1,9 +1,6 @@
-numeros = [1,2,3,4,5]
-
-for i in range(5):
-    if numeros[i] % 2 ==0:
-        print(f"{numeros[i]} Par")
-
-    num=int(input("Digite um número:"))
-    if num  % 2 == 0:
-        print("par")
+"""Crie uma lista com 5 números inteiros e exiba cada número ao quadrado."""
+numeros=[8,2,3,7,5,6]
+for x in numeros:
+    quadrado= x*x
+    print(f"o quadrado de {x} é {quadrado}")
+    
